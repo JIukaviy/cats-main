@@ -120,6 +120,7 @@ CREATE TABLE problems (
     lang            VARCHAR(200) DEFAULT '',
     time_limit      INTEGER DEFAULT 0,
     memory_limit    INTEGER,
+    write_limit     INTEGER,
     difficulty      INTEGER DEFAULT 100,
     author          VARCHAR(200) DEFAULT '',
     repo            VARCHAR(200) DEFAULT '', /* Default -- based on id. */
